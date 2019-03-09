@@ -5,16 +5,24 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data: function () {
     return {
       message: "Hello Vue!"
     }
-  }
+  },
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
 p {
   font-size: 2em;
   text-align: center;
