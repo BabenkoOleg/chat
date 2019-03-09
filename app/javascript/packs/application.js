@@ -9,6 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const el = document.body.appendChild(document.createElement('div'));
   new Vue({
     el,
-    render: h => h(App)
+    render: h => h(App),
   });
 });
